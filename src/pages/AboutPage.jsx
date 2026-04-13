@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import axios from 'axios'
 import { FormField, PageHeader, Panel } from '../components/ui'
 
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:3000'
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'https://portfolio-backend-eight-mu.vercel.app'
 
 const fallbackDescription =
   'I am an 8th-semester Computer Science student at DHA Suffa University with a dedicated focus on software engineering and web technologies. Maintaining a CGPA of 3.54, I have balanced academic excellence with practical application. I specialize in the MERN stack and am dedicated to creating efficient, user-centric digital solutions that solve real-world problems.'

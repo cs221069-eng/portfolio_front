@@ -9,7 +9,7 @@ export default function SkillsPage() {
   const [loading, setLoading] = useState(true)
   const [status, setStatus] = useState('')
 
-  const apiBaseUrl = `${import.meta.env.VITE_API_BASE_URL || 'http://localhost:3000'}/api/skill`
+  const apiBaseUrl = `${import.meta.env.VITE_API_BASE_URL || 'https://portfolio-backend-eight-mu.vercel.app'}/api/skill`
 
   const fetchSkills = async () => {
     try {

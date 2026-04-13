@@ -3,7 +3,7 @@ import axios from 'axios'
 import { MaterialIcon, PageHeader, Panel } from '../components/ui'
 import { securitySettings } from '../data/adminData'
 
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:3000'
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'https://portfolio-backend-eight-mu.vercel.app'
 
 export default function ResumeSettingsPage({ mode = 'resume' }) {
   const isSettings = mode === 'settings'

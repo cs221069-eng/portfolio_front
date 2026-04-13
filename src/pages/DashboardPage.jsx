@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import { MaterialIcon, PageHeader, Panel, ProgressBar, StatCard } from '../components/ui'
 
-const API_BASE_URL = 'http://localhost:3000/api'
+const API_BASE_URL = `${import.meta.env.VITE_API_BASE_URL || 'https://portfolio-backend-eight-mu.vercel.app'}/api`
 
 export default function DashboardPage() {
   const [skills, setSkills] = useState([])

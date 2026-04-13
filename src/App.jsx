@@ -37,7 +37,7 @@ export default function App() {
   const [isCheckingAuth, setIsCheckingAuth] = useState(true)
   const [isAuthenticated, setIsAuthenticated] = useState(false)
 
-  const apiBaseUrl = import.meta.env.VITE_API_BASE_URL || 'http://localhost:3000'
+  const apiBaseUrl = import.meta.env.VITE_API_BASE_URL || 'https://portfolio-backend-eight-mu.vercel.app'
 
   useEffect(() => {
     const syncPath = () => setPath(getHashPath())

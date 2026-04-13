@@ -22,7 +22,7 @@ export default function ProjectsPage() {
   const [status, setStatus] = useState('')
   const [screenshotFile, setScreenshotFile] = useState(null)
 
-  const apiBaseUrl = `${import.meta.env.VITE_API_BASE_URL || 'http://localhost:3000'}/api/project`
+  const apiBaseUrl = `${import.meta.env.VITE_API_BASE_URL || 'https://portfolio-backend-eight-mu.vercel.app'}/api/project`
 
   const fetchProjects = async () => {
     try {
